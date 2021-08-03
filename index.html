@@ -10,7 +10,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>BLOCKS</title>
+
+
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    <script src="js/footer.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,50 +31,35 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">BLOCKS</a>
+            <a class="navbar-brand" href="#"  style="font-weight: bold;">BLOCKS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav text-right">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Topics
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                        <a class="nav-link " href="/about.html" style="font-weight: 800;">About</a>
                     </li>
-
+                    
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="/contact.html" style="font-weight: 800;">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/signup.html" style="font-weight: 800;">Sign Up</a>
+                    </li>
+                    
                 </ul>
-                <form class="d-flex">
+
+                <!-- <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                <div class="mx-2">
-                    <button class="btn btn-light">LOGIN</button>
-                    <button class="btn btn-light"><a href="signup.html" style="text-decoration: none;">SIGN UP</a> </button>
-                </div>
+                </form> -->
+                
             </div>
         </div>
     </nav>
@@ -84,34 +81,34 @@
             <div class="carousel-item active">
                 <img src="https://source.unsplash.com/1400x700/?dark,blue" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5 style="font-weight: 800;">First slide label</h5>
+                    <p style="font-weight: 800;">Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://source.unsplash.com/1400x700/?dark,black" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5 style="font-weight: 800;">Second slide label</h5>
+                    <p style="font-weight: 800;">Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://source.unsplash.com/1400x700/?dark,nature" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5 style="font-weight: 800;">Third slide label</h5>
+                    <p style="font-weight: 800;">Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden" style="font-weight: 800;">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden" style="font-weight: 800;">Next</span>
         </button>
     </div>
 
@@ -196,6 +193,148 @@
     </div>
 <br>
 
+<<<<<<< HEAD
+=======
+
+
+
+    <div>
+       
+
+
+
+
+    </div>
+    <div class="ffot">
+
+
+        <div class="divif1" style='margin-top:30px;'>
+
+
+            <img src='https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png'
+                style='width:150px; margin-left:20px;'>
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="divif2" style='margin-top:30px;'>
+            <div style="margin-left: 10px;"> <br>
+                <span style="font-size:17px"><strong>USEFUL LINKS</strong></span><br><br>
+                <div class="line"></div>
+            </div>
+            <div style="margin-left: 17px;">
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        style='font-size:14px; font-family:"Open Sans", sans-serif;' href='../index.html'>Home</a>
+                </p>
+                <div class="line2"></div>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        style='font-size:14px; font-family:"Open Sans", sans-serif;' href='comingsoon.php'>Find
+                        Employees</a></p>
+                <div class="line2"></div>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        style='font-size:14px; font-family:"Open Sans", sans-serif;' href='comingsoon.php'>Company
+                        Login</a></p>
+                <div class="line2"></div>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        style='font-size:14px; font-family:"Open Sans", sans-serif;' href='pdd'>Terms of service</a>
+                </p>
+                <div class="line2"></div>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        style='font-size:14px; font-family:"Open Sans", sans-serif;' href='pdd'>Privacy Policy</a>
+                </p>
+                <div class="line2"></div>
+
+            </div>
+        </div>
+
+
+
+        <div class="divif3" style='margin-top:30px;'>
+            <div style="margin-left: 7px;"> <br>
+                <span style="font-size:17px"><strong>Contact Us</strong></span><br><br>
+                <div class="line"></div>
+            </div>
+            <div style="margin-left: 7px;">
+                <p style=' color:rgb(231, 227, 227); font-family:"Open Sans", sans-serif; font-size:14px;'>Phone:
+                    +91 PHONENUMBER
+                <p>
+                <p style=' color:rgb(231, 227, 227); font-family:"Open Sans", sans-serif; font-size:14px;'>Email:
+                    mycomp@mail.com
+                <p>
+                   <a href="">
+                        <i class="fa fa-instagram fan" aria-hidden="true"></i>
+
+                    </a>
+                    &nbsp;
+                    <a href="">
+                        <i class="fa fa-twitter fan" aria-hidden="true"></i>
+
+                    </a>
+                    &nbsp;
+                    <a href="">
+                        <i class="fa fa-facebook fan" aria-hidden="true"></i>
+
+                    </a>
+                    &nbsp;
+                    <a href="">
+                        <i class="fa fa-envelope fan" aria-hidden="true"></i>
+
+                    </a>
+                    &nbsp;
+                    <a href="">
+                        <i class="fa fa-google fan" aria-hidden="true"></i>
+
+                    </a>
+
+
+            </div>
+        </div>
+
+
+        <div class="divif4" style='margin-top:30px;'>
+            <div style="margin-left: 10px;"> <br>
+                <span style="font-size:17px"><strong>NOT SATISFIED ?
+                    </strong></span><br><br>
+                <div class="line"></div>
+            </div>
+            <div style="margin-left: 17px;">
+                <p style='font-size:14px; color:rgb(231, 227, 227);font-family:"Open Sans", sans-serif;'>Feel free
+                    to mail us if you don't like any feature or you would like to add some features .</p>
+                <input type="email" name="email"
+                    style="padding:4px; width:200px !important; border-radius:0px !important;"><a
+                    style="color:white;" href="#"><i
+                        style="background-color: green; padding: 6px;">
+                        &nbsp;&nbsp;&nbsp;Mail&nbsp;&nbsp;&nbsp;&nbsp; </i></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div style="padding: 30px; background-color:#111111;"></div>
+
+    <a href="" id='scroll' class="back-to-top">
+        <i class="fa fa-chevron-up"></i>
+        <!--<i class="fa fa-angle-up" style="font-size:48px;color:red"></i>-->
+
+    </a>
+    <div style="background-color: black; padding: 25px; color:whitesmoke;font-family:" Open Sans", sans-serif;">
+        <center>© Copyright 2021 BLOCKS. All Rights Reserved</center> <span style="float: right; color: white;">Made
+            By: <a href="#" target='_blank'>Prashant Singh</a></span>
+    </div>
+
+
+
+
+>>>>>>> e7dfa833a6b3b2433984f7c9a2611521aedb7874
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
