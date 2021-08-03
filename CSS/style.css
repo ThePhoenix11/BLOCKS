@@ -8,11 +8,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.card {
+.navbar{
+  background: none;
+}
+
+.card img {
+  border-radius: 10px;
   transition: 0.3s ease-in-out;
 }
 
-.card:hover {
+.card img:hover {
   transform: scale(1.05);
-  box-shadow: 2px 4px 4px rgba(84, 95, 255, 0.753);
+  box-shadow: 0px 3px 0px rgba(63,214,214);
+}
+
+.btn-new{
+  background-color: rgb(63,214,214);
+  color: #fff;
+  font-weight: 800;
 }

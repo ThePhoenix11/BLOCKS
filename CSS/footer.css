@@ -7,8 +7,6 @@
 
        input:focus {
            outline: none !important;
-           border-color: #37eb5e !important;
-           box-shadow: 0 0 10px #30eb39 !important;
        }
 
        .ffot {
@@ -38,7 +36,7 @@
        .back-to-top {
            position: fixed;
            /*display: none;*/
-           background: #18d26e;
+           background: rgb(63, 214, 214) !important;
            color: #fff;
            width: 44px;
            height: 44px;
@@ -99,7 +97,7 @@
 
        .line:before {
            content: '';
-           background: #18D26E;
+           background: rgb(63, 214, 214) !important;
            width: 20%;
            height: 2px;
            position: absolute;
@@ -112,7 +110,7 @@
        }
 
        a:hover {
-           color: #16A559;
+           color: rgb(63, 214, 214) !important;
 
        }
 
@@ -127,15 +125,13 @@
 
 
 i.fan {
-                               display: inline-block;
-                               border-radius: 60px;
-                               box-shadow: 0px 0px 2px #888;
-                               /* background-color: green; */
-                               padding: 12px;
-                               color: whitesmoke;
+    display: inline-block;
+    border-radius: 60px;
+    padding: 12px;
+    color: whitesmoke;
 
-                           }
+}
 
-                           i.fan:hover {
-                               background-color: rgb(4, 187, 4);
-                           }
+i.fan:hover {
+    background-color: rgb(63, 214, 214) !important;
+}
