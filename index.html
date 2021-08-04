@@ -26,7 +26,7 @@
 
 <body>
 
-<!-- <NANBAAR STARTED> -->
+<!-- <NAVBAR STARTED> -->
 
     <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
         <div class="container-fluid">
@@ -42,22 +42,17 @@
                         <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/about.html" style="font-weight: 800;">About</a>
+                        <a class="nav-link " href="#about" style="font-weight: 800;">About</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html" style="font-weight: 800;">Contact Us</a>
+                        <a class="nav-link" href="#wd" style="font-weight: 800;">Web-Dev</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/signup.html" style="font-weight: 800;">Sign Up</a>
-                    </li>
-                    
+                      <a class="nav-link" href="#gd" style="font-weight: 800;">GD</a>
+                  </li>
+                  
                 </ul>
-
-                <!-- <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
                 
             </div>
         </div>
@@ -131,8 +126,8 @@
 
     <!-- ABOUT PAGE -->
 
-    <div class="container">
-        <h1 style="text-align: center; padding: 40px;"><strong>ABOUT US</strong></h1>
+    <div class="container" >
+        <h1 style="text-align: center; padding: 40px;" id="about" ><strong>ABOUT US</strong></h1>
         <p style="text-align:center;font-size:20px; padding-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione obcaecati officiis maxime dolore tenetur praesentium nesciunt, voluptatem laborum voluptates possimus ipsum totam fuga est consectetur soluta, alias asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eveniet accusantium saepe fugit, ex hic voluptatum, facere ducimus ab deleniti quidem enim eum dolores animi minima explicabo non cumque impedit. </p>
         <div>
             <div>
@@ -195,7 +190,7 @@
 
     <div class="container" style="width: 70%;">
         <br><br>
-        <h2 style="text-align: center; font-weight: bold;">Web-Development</h2>
+        <h2 style="text-align: center; font-weight: bold;" id="wd">Web-Development</h2>
         <br>
         <p  class="text-center" style="font-size: 20px;">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cupiditate dolor obcaecati pariatur sint, harum ratione cum illum explicabo facilis ea, voluptates accusamus id voluptatem. Modi dolor impedit quia dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi accusamus et magnam laudantium velit at, minima id vel quae quaerat ipsam ipsum maiores, nisi dolorem voluptatem beatae quisquam est!</p>
@@ -208,12 +203,12 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This card has even longer content than the first to show that equal height
                         action.</p>
-                <a href="javascript.html" target="blank"><button class="btn btn-new">Learn More</button></a>        
+                <a href="html_tutorial.html" target="blank"><button class="btn btn-new">Learn More</button></a>        
                 </div>
             </div>
             
             <div class="card" style=" margin:10px; border: none; background-color:#1b1b1b">
-                <img src="https://source.unsplash.com/300x300/?css" class="card-img-top" alt="...">
+                <img src="/IMG/css-land.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">CSS Guide</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -238,7 +233,7 @@
             </div>
         </div>
 <br><br>
-        <h2  style="text-align: center; font-weight: bold;">Graphic Designing</h2>
+        <h2  style="text-align: center; font-weight: bold;" id="gd">Graphic Designing</h2>
         <br>
         <p  class="text-center"  style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cupiditate dolor obcaecati pariatur sint, harum ratione cum illum explicabo facilis ea, voluptates accusamus id voluptatem. Modi dolor impedit quia dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi accusamus et magnam laudantium velit at, minima id vel quae quaerat ipsam ipsum maiores, nisi dolorem voluptatem beatae quisquam est!</p>
         
@@ -391,7 +386,8 @@
     </footer>
   </div>
 
-
+<!-- Back to top button-->
+  <a href="#" id="scroll" style="display: none;"><span> </span></a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -407,4 +403,20 @@
    
 </body>
 
-</html>
+<!-- back to top button -->
+<script>$(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+  }); 
+});</script>
+
+
+</html> 

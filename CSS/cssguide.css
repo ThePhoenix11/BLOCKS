@@ -50,6 +50,45 @@ button:focus {
       background-size: cover;
 }
 
+.css-image img{
+    transition: 0.3s ease-in-out;
+}
+
+.css-image img:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 3px 0px rgb(63,214,214);
+    content:"";
+    width: 200px;
+    color: white;
+
+}
+
 .footer-wave-path{
     background-image: transparent;
+}
+
+.css-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 36px;
+}
+
+.sub-heading-lelo strong{
+    color: rgb(255, 0, 242);
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.sub-heading-lelo p, .sub-heading-lelo ol{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.css-short{
+ padding-right: 70px;
+ padding-left: 70px;
 }
