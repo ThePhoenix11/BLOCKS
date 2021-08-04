@@ -14,22 +14,24 @@
 
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/footer.css">
-
-    <script src="js/footer.js"></script>
+    <link rel="stylesheet" href="CSS/css.css">
+    <script src="/js/css.js"></script>
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
      
     <!-- <NANBAAR STARTED> -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"  style="font-weight: bolder;">BLOCKS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: rgb(63,214,214); border:none;"
@@ -43,16 +45,16 @@
                         <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/about.html" style="font-weight: 800;">About</a>
-                    </li>
+                        <a class="nav-link " href="index.html" style="font-weight: 800;">About</a>
+                      </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html" style="font-weight: 800;">Contact Us</a>
+                        <a class="nav-link" href="index.html" style="font-weight: 800;">Web-Dev</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/signup.html" style="font-weight: 800;">Sign Up</a>
-                    </li>
-                    
+                      <a class="nav-link" href="index.html" style="font-weight: 800;">GD</a>
+                  </li>
+                  
                 </ul>
 
                 <!-- <form class="d-flex">
@@ -177,7 +179,8 @@
     </footer>
   </div>
 
-
+<!-- Back to top button-->
+<a href="#" id="scroll" style="display: none;"><span> </span></a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -192,5 +195,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
    
 </body>
+
+<!-- back to top button -->
+<script>$(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+  }); 
+});</script>
 
 </html>
