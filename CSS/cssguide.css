@@ -75,6 +75,25 @@ button:focus {
   font-size: 36px;
 }
 
+.conatiner-animated{
+
+    background: linear-gradient(45deg, #1b1b1b, #1b1b1b, rgb(63, 214, 214), #09685b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 90%;
+    }
+    50% {
+        background-position: 30% 50%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
 .sub-heading-lelo strong{
     color: rgb(255, 0, 242);
     font-size: 30px;

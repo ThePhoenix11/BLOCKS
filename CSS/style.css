@@ -9,13 +9,8 @@ body {
 }
 
 .navbar{
-  
-  position: relative;
-  
+  background-image: linear-gradient(to right, #1b1b1b 20%,#1b1b1b 100%);
 }
-
-
-
 /********************** PRALLAX IMAGE STARTING ****************************/
 
 
