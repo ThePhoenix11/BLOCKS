@@ -27,42 +27,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
      
     <!-- <NANBAAR STARTED> -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <nav class="navbar fixed-top navbar-dark navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"  style="font-weight: bolder;">BLOCKS</a>
+            <a class="navbar-brand" href="#"  style="font-weight: bolder; font-size:20px">BLOCKS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: rgb(63,214,214); border:none;"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="color:#1b1b1b"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav text-right">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800;">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800; font-size:20px">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/about.html" style="font-weight: 800;">About</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact.html" style="font-weight: 800;">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/signup.html" style="font-weight: 800;">Sign Up</a>
+                        <a class="nav-link " href="#about" style="font-weight: 800; font-size:20px">About</a>
                     </li>
                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#wd" style="font-weight: 800; font-size:20px">Web-Dev</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gd" style="font-weight: 800; font-size:20px">GD</a>
+                  </li>
+                  
                 </ul>
-
-                <!-- <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
                 
             </div>
         </div>
@@ -117,12 +113,14 @@
   </div>
 </div>
 
+<div class="conatiner-animated new-styles">
+
 <div class="logo"><img src="js-logo.png" alt="error" ></div>
 
-<div class="fluid-container-1" style="display: flex; ">
+<div  style="display: flex; ">
 
 
-    <div class="jsInfo" style="margin: auto;">
+    <div  style="margin: auto;">
       <ul>
       <li>Javascript is a dynamic computer programming language.</li> 
       <li>It is an interpreted programming language with object-oriented capabilities.</li> 
@@ -135,11 +133,11 @@
     </div>
   </div>
 
-  <div class="fluid-container-2" style="color:aqua; font-size: 30px;padding: 30px;">
+  <div  style="color:aqua; font-size: 30px;padding: 30px;">
     GETTING STARTED
   </div>
 
-  <div class="fluid-container-3" style="padding: 30px;">
+  <div  style="padding: 30px;">
     Learning JS can be summarized in 3 paths :
     <ol style="padding: 20px; spacing:10px">
       <li>Learning the basics of JS - syntax, varibles and data types.</li>
@@ -148,14 +146,16 @@
     </ol>
   </div>
 
-  <div class="fluid-container-4" style="color:aqua; font-size: 30px; padding: 30px;">
+  <div  style="color:aqua; font-size: 30px; padding: 30px;">
     Tips & Tricks :
   </div>
 
-  <div class="fluid-container-5" style="padding: 30px;">
+  <div  style="padding: 30px;">
     For basic JS, work on projects like rock,paper & scissors game. <br>
     Learn about node package manager (npm), git commands, JQuery and frameworks.
   </div>
+</div>
+
 
 <!-- FOOTER STARTED -->
 
@@ -265,7 +265,8 @@
     </footer>
   </div>
 
-
+<!-- Back to top button-->
+<a href="#" id="scroll" style="display: none;"><span> </span></a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -281,6 +282,7 @@
    
 </body>
 
+<<<<<<< HEAD
 <script>
 
   document.querySelectorAll(".win-btn").forEach((b) => {
@@ -302,5 +304,21 @@
   
   
       </script>
+=======
+<!-- back to top button -->
+<script>$(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+  }); 
+});</script>
+>>>>>>> 9a90fa184a71b6917664a4e7356c557308686090
 
 </html>

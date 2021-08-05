@@ -30,41 +30,35 @@
  
      <!-- <NANBAAR STARTED> -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <nav class="navbar fixed-top navbar-dark navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="font-weight: bolder;">BLOCKS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                style="background-color: rgb(63,214,214); border:none;" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"  style="font-weight: bolder; font-size:20px">BLOCKS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: rgb(63,214,214); border:none;"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="color:#1b1b1b"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav text-right">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/" style="font-weight: 800;">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/"style="font-weight: 800; font-size:20px">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/about.html" style="font-weight: 800;">About</a>
+                        <a class="nav-link " href="#about" style="font-weight: 800; font-size:20px">About</a>
                     </li>
-
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html" style="font-weight: 800;">Contact Us</a>
+                        <a class="nav-link" href="#wd" style="font-weight: 800; font-size:20px">Web-Dev</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/signup.html" style="font-weight: 800;">Sign Up</a>
-                    </li>
-
+                      <a class="nav-link" href="#gd" style="font-weight: 800; font-size:20px">GD</a>
+                  </li>
+                  
                 </ul>
-
-                <!-- <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-
+                
             </div>
         </div>
     </nav>
-
 
     <!-- NAVBAAR ENDED -->
  
@@ -72,7 +66,7 @@
  
     <div class="parallax-img-1">
     <div class="fluid-container">
-     <div class="heading" style="font-size: 50px; text-align: center;">
+     <div class="heading" style="font-size: 50px; text-align: center; padding-top:80px;">
          <strong>TABLE OF CONTENTS
      </div>
 
@@ -118,8 +112,33 @@
  </div>
 </div>
     
-    <div class="conatiner new-styles" style="padding: 40px 0px; text-align: center; font-size: 70px">
-     NEED TO ADD STUFFS RELATED TO THE ABOVE TABLE OF CONTENT
+    <div class="conatiner-animated new-styles">
+
+    <div class="css-image">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+        <img src="/IMG/html5-logo-31821.png" style="height: 500px; width: auto;"></a>
+    </div>
+    <div class="css-short" style="text-align: center; font-size: 24px; padding-bottom: 20px;">
+    CSS (Cascading Style Sheets) is what makes web pages look good and presentable. It’s an essential part of modern web
+    development and a must-have skill for any web designer and developer.
+    </div>
+
+    <div class="sub-heading-lelo" style="text-align: left !important; font-weight: bold;">
+    <strong style="font-weight: bolder;">GETTING STARTED :</strong><br>
+    <p>Let’s start with learning how we can include CSS in our projects. There are typically three ways we do that. Go through the given links:</p>
+    <ol>
+        <li>
+            <a href="https://www.geeksforgeeks.org/css-tutorials/?ref=ghm">GeeksForGeeks</a>
+        </li>
+        <li>
+            <a href="https://www.geeksforgeeks.org/css-tutorials/?ref=ghm">MDN WEB Docs</a>
+        </li>
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">W3Schools</a>
+        </li>
+    </ol>
+    </div>
+
     </div>
 
 
@@ -242,6 +261,10 @@
             </div>
         </footer>
     </div>
+
+<!-- Back to top button-->
+<a href="#" id="scroll" style="display: none;"><span> </span></a>
+
         <!-- Optional JavaScript; choose one of the two! -->
     
         <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -276,4 +299,19 @@ document.querySelectorAll(".win-btn").forEach((b) => {
 
 
     </script>
+
+    <!-- back to top button -->
+<script>$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+  });</script>
 </html>
