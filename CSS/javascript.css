@@ -54,25 +54,26 @@ button:focus {
     background-image: transparent;
 }
 
-.logo img{
+.css-image img{
     transition: 0.3s ease-in-out;
 }
 
-.logo img:hover{
+.css-image img:hover{
     transition: 0.3s ease-in-out;
     box-shadow: 0px 3px 0px rgb(63,214,214);
     content:"";
+    width: 200px;
     color: white;
 
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0px;
-    font-size: 36px;
-  }
+.css-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 36px;
+}
 
 .conatiner-animated{
 
@@ -92,4 +93,3 @@ button:focus {
         background-position: 0% 90%;
     }
 }
-
