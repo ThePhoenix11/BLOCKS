@@ -11,6 +11,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/*no scroll-bar*/
+body
+{
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* no scroll bar ended*/
+
 .navbar{
   background-image: linear-gradient(to right, #1b1b1b 20%,#1b1b1b 100%);
 }
