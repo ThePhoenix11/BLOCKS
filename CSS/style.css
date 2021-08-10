@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
 body {
   background-color: #1b1b1b;
   color: #fff;
@@ -9,12 +10,15 @@ body {
 
 *{
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 /*no scroll-bar*/
 body
 {
     overflow-y: scroll;
+    cursor: context-menu;
+    box-sizing: border-box;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -123,4 +127,3 @@ url('/IMG/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
   opacity:1;filter:"alpha(opacity=100)";
   -ms-filter:"alpha(opacity=100)";
 }
-
