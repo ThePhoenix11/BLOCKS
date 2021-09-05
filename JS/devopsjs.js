@@ -1,74 +1,74 @@
 // import Vue from 'vue';
 const persons = [
-  { name: "Amber Gibs",
-    photo: "https://serving.photos.photobox.com/53464066dc132288128cb11531bb767f0082dcde75f3b845cd905d38c4223e95e0dc7bc9.jpg",
+  { name: "Prashant Kumar Singh",
+    photo: "../IMG/pindiki.png",
     title: "Developer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/profile.php?id=100033540931566",
+      instagram: "https://www.instagram.com/intuitive_prashant/",
       linkedin: "#"
     }
   },
   {
-    name: "Carl Roland",
-    photo: "https://serving.photos.photobox.com/2226093445b640ea69b3247d4e4a31ee16d7569a38f898affce33adc8fc8d0f3ecf79591.jpg",
+    name: "Ashutosh Kumar Singh Rathore",
+    photo: "../IMG/meri.jpg",
     title: "Developer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/ashu.rathore.543/",
+      instagram: "https://www.instagram.com/technoreck/",
       linkedin: "#"
     }
   },
   {
-    name: "Paul Wilson",
-    photo: "https://serving.photos.photobox.com/80553616a29779bd113f7a340b9b1eae3636dd38534c57877597a17b7131be741c67b3ae.jpg",
+    name: "Ishan Gupta",
+    photo: "../IMG/behenki.png",
     title: "UI Designer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/profile.php?id=100011038712583",
+      instagram: "https://www.instagram.com/ishangupta641/",
       linkedin: "#"
     }
   },
   {
-    name: "Alice Jenkins",
-    photo: "https://serving.photos.photobox.com/52898788b03c8a0e32a8cb52b4d43d7525f119daa2629569dbda0a8d827192217fb64c22.jpg",
+    name: "Akshay Kumar Singh",
+    photo: "../IMG/lomdeki.png",
     title: "QA Engineer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/akshaykumar.singh.5036",
+      instagram: "https://www.instagram.com/aks_7933/",
       linkedin: "#"
       }
   },
   {
-    name: "Pale",
-    photo: "https://serving.photos.photobox.com/52898788b03c8a0e32a8cb52b4d43d7525f119daa2629569dbda0a8d827192217fb64c22.jpg",
+    name: "Neel Kamal",
+    photo: "../IMG/Beel.jpeg",
     title: "QA Engineer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/profile.php?id=100023349372696",
+      instagram: "https://www.instagram.com/_hyperconjugate_/",
       linkedin: "#"
     }
     
   },
   {
-    name: "Pale",
+    name: "Sankalp Garg",
     photo: "https://serving.photos.photobox.com/52898788b03c8a0e32a8cb52b4d43d7525f119daa2629569dbda0a8d827192217fb64c22.jpg",
     title: "QA Engineer",
     bio:
       "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
     social: {
-      facebook: "#",
-      twitter: "https://twitter.com/knyttneve",
+      facebook: "https://www.facebook.com/sankalp.garg.714",
+      instagram: "https://www.instagram.com/sankalp_garg/",
       linkedin: "#"
     }
     
